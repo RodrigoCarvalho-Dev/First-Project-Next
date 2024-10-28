@@ -30,7 +30,7 @@ export default async function Product({ params } : ProductProps ){
             <br />  
 
                 <AddToCard>
-                <Test/>
+                <Test/> 
                 </AddToCard>
         </h1>
     );
