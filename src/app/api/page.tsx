@@ -1,6 +1,7 @@
 
 export default async function Api() {
 
+    await new Promise(resolve => setTimeout(resolve, 2000));
     const response = await fetch('https://api.github.com/users/nextjs');
     const user = await response.json();
 
